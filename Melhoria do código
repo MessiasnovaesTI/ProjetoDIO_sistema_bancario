@@ -1,0 +1,11 @@
+Melhorando nosso código, foi implantado esses passos para otimizar o sistema:
+
+1. Definir as Funções
+A ideia é criar funções específicas para cada operação: depósito, saque e extrato. Além disso, teremos uma função principal que gerenciará as chamadas dessas operações.
+
+Estrutura do sistema bancário:
+Função depositar: Recebe o valor e adiciona ao saldo e ao extrato.
+Função sacar: Realiza o saque, verifica o saldo disponível, o limite de saque diário, e limita a quantidade de saques por dia.
+Função exibir_extrato: Exibe as movimentações (depósitos e saques) e o saldo final.
+Função menu_principal: Permite ao usuário escolher a operação que deseja realizar.
+Foi criado o sistema usando essas funções.
